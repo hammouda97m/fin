@@ -28,3 +28,9 @@
 <h3>Key Innovations</h3>
 <p>-Smart streak validation - ignores streaks that contradict price movement<br />-5-minute BTC tracking - more relevant than 24h changes<br />-Contrarian whale betting - fades large positions<br />-Real-time price differential - compares live vs lock price<br />-Shared loss prevention - multiple bots coordinate to avoid consecutive losses</p>
 <p>The bot essentially tries to exploit market inefficiencies by combining multiple signals while being cautious about overconfidence, using a sophisticated ML-inspired scoring system trained on 10,000+ historical rounds.</p>
+
+
+
+NOTE:
+There are 6 different files. Each works once every 30 minutes. This is made so you can have 6 different wallets and avoid getting detected when you win repeatedly.
+You can opt out by executing only the first fin.py code and by editing the loop timer to become 300 seconds.
